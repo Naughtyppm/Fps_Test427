@@ -1,0 +1,224 @@
+{
+	"root":
+	{
+		"groups":
+		{
+			"Default Group":
+			{
+				"groupName": "Default Group",
+				"bindings":
+				{
+					"LightSource":
+					{
+						"bDependLevel": false,
+						"bFetched": false,
+						"displayName": "LightSource",
+						"objectName": "LightSource",
+						"className": "DirectionalLight",
+						"objectPath": "/Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.LightSource",
+						"ownerGroupName": "Default Group",
+						"properties":
+						{
+							"RelativeLocation":
+							{
+								"displayName": "Relative Location (Light Source)",
+								"propertyName": "RelativeLocation",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"LightComponent0":
+									{
+										"ownerName": "LightComponent0",
+										"ownerClass": "DirectionalLightComponent",
+										"ownerPath": "DirectionalLightComponent /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.LightSource.LightComponent0",
+										"outerName": "LightSource",
+										"outerClass": "DirectionalLight",
+										"outerPath": "DirectionalLight /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.LightSource",
+										"bIsComponent": true
+									}
+								},
+								"ownerTopObjectName": "LightSource",
+								"ownerGroupName": "Default Group"
+							},
+							"Intensity":
+							{
+								"displayName": "Intensity (Light Source)",
+								"propertyName": "Intensity",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"LightComponent0":
+									{
+										"ownerName": "LightComponent0",
+										"ownerClass": "DirectionalLightComponent",
+										"ownerPath": "DirectionalLightComponent /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.LightSource.LightComponent0",
+										"outerName": "LightSource",
+										"outerClass": "DirectionalLight",
+										"outerPath": "DirectionalLight /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.LightSource",
+										"bIsComponent": true
+									}
+								},
+								"ownerTopObjectName": "LightSource",
+								"ownerGroupName": "Default Group"
+							}
+						},
+						"functions":
+						{
+						}
+					},
+					"BP_Sky_Sphere_C_2":
+					{
+						"bDependLevel": false,
+						"bFetched": false,
+						"displayName": "BP_Sky_Sphere_C_2",
+						"objectName": "BP_Sky_Sphere_C_2",
+						"className": "BP_Sky_Sphere_C",
+						"objectPath": "/Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.BP_Sky_Sphere_C_2",
+						"ownerGroupName": "Default Group",
+						"properties":
+						{
+							"RelativeScale3D":
+							{
+								"displayName": "Relative Scale 3D (BP_Sky_Sphere)",
+								"propertyName": "RelativeScale3D",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"Base":
+									{
+										"ownerName": "Base",
+										"ownerClass": "SceneComponent",
+										"ownerPath": "SceneComponent /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.BP_Sky_Sphere_C_2.Base",
+										"outerName": "BP_Sky_Sphere_C_2",
+										"outerClass": "BP_Sky_Sphere_C",
+										"outerPath": "BP_Sky_Sphere_C /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.BP_Sky_Sphere_C_2",
+										"bIsComponent": true
+									}
+								},
+								"ownerTopObjectName": "BP_Sky_Sphere_C_2",
+								"ownerGroupName": "Default Group"
+							},
+							"Directional light actor":
+							{
+								"displayName": "Directional Light Actor (BP_Sky_Sphere)",
+								"propertyName": "Directional light actor",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"BP_Sky_Sphere_C_2":
+									{
+										"ownerName": "BP_Sky_Sphere_C_2",
+										"ownerClass": "BP_Sky_Sphere_C",
+										"ownerPath": "BP_Sky_Sphere_C /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.BP_Sky_Sphere_C_2",
+										"outerName": "",
+										"outerClass": "",
+										"outerPath": "",
+										"bIsComponent": false
+									}
+								},
+								"ownerTopObjectName": "BP_Sky_Sphere_C_2",
+								"ownerGroupName": "Default Group"
+							}
+						},
+						"functions":
+						{
+						}
+					},
+					"GlobalPostProcessVolume":
+					{
+						"bDependLevel": false,
+						"bFetched": false,
+						"displayName": "GlobalPostProcessVolume",
+						"objectName": "GlobalPostProcessVolume",
+						"className": "PostProcessVolume",
+						"objectPath": "/Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.GlobalPostProcessVolume",
+						"ownerGroupName": "Default Group",
+						"properties":
+						{
+							"Settings.BloomMethod":
+							{
+								"displayName": "Method (GlobalPostProcessVolume)",
+								"propertyName": "Settings.BloomMethod",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"GlobalPostProcessVolume":
+									{
+										"ownerName": "GlobalPostProcessVolume",
+										"ownerClass": "PostProcessVolume",
+										"ownerPath": "PostProcessVolume /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.GlobalPostProcessVolume",
+										"outerName": "",
+										"outerClass": "",
+										"outerPath": "",
+										"bIsComponent": false
+									}
+								},
+								"ownerTopObjectName": "GlobalPostProcessVolume",
+								"ownerGroupName": "Default Group"
+							},
+							"Settings.BloomIntensity":
+							{
+								"displayName": "Intensity (GlobalPostProcessVolume)",
+								"propertyName": "Settings.BloomIntensity",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"GlobalPostProcessVolume":
+									{
+										"ownerName": "GlobalPostProcessVolume",
+										"ownerClass": "PostProcessVolume",
+										"ownerPath": "PostProcessVolume /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.GlobalPostProcessVolume",
+										"outerName": "",
+										"outerClass": "",
+										"outerPath": "",
+										"bIsComponent": false
+									}
+								},
+								"ownerTopObjectName": "GlobalPostProcessVolume",
+								"ownerGroupName": "Default Group"
+							},
+							"Settings.BloomThreshold":
+							{
+								"displayName": "Threshold (GlobalPostProcessVolume)",
+								"propertyName": "Settings.BloomThreshold",
+								"metadata":
+								{
+								},
+								"ownerObjects":
+								{
+									"GlobalPostProcessVolume":
+									{
+										"ownerName": "GlobalPostProcessVolume",
+										"ownerClass": "PostProcessVolume",
+										"ownerPath": "PostProcessVolume /Game/LED/MAP/FPS_TEST.FPS_TEST:PersistentLevel.GlobalPostProcessVolume",
+										"outerName": "",
+										"outerClass": "",
+										"outerPath": "",
+										"bIsComponent": false
+									}
+								},
+								"ownerTopObjectName": "GlobalPostProcessVolume",
+								"ownerGroupName": "Default Group"
+							}
+						},
+						"functions":
+						{
+						}
+					}
+				}
+			}
+		}
+	}
+}

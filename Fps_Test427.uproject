@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{A7A706E2-4C69-FEA2-CA3F-0BAF19A4CA53}",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "VersatileVFX",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MultiUserClient",
+			"Enabled": true
+		},
+		{
+			"Name": "LEDInCameraPreview",
+			"Enabled": false
+		},
+		{
+			"Name": "RemoteControllPresetProcSetting",
+			"Enabled": false
+		}
+	]
+}
